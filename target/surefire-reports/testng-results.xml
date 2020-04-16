@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="22157" started-at="2020-04-15T17:41:42Z" finished-at="2020-04-15T17:42:04Z">
+    <groups>
+    </groups>
+    <test name="Tester" duration-ms="22157" started-at="2020-04-15T17:41:42Z" finished-at="2020-04-15T17:42:04Z">
+      <class name="com.corona.smoke.TestFBinvalidLogin">
+        <test-method status="PASS" signature="preconditions()[pri:0, instance:com.corona.smoke.TestFBinvalidLogin@15435c]" name="preconditions" is-config="true" duration-ms="20395" started-at="2020-04-15T23:11:42Z" finished-at="2020-04-15T23:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preconditions -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.corona.smoke.TestFBinvalidLogin@15435c]" name="f" duration-ms="1390" started-at="2020-04-15T23:12:03Z" finished-at="2020-04-15T23:12:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="postcondition()[pri:0, instance:com.corona.smoke.TestFBinvalidLogin@15435c]" name="postcondition" is-config="true" duration-ms="331" started-at="2020-04-15T23:12:04Z" finished-at="2020-04-15T23:12:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- com.corona.smoke.TestFBinvalidLogin -->
+    </test> <!-- Tester -->
+  </suite> <!-- Suite -->
+  <suite name="Suite1" duration-ms="2" started-at="2020-04-15T17:42:04Z" finished-at="2020-04-15T17:42:04Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="2" started-at="2020-04-15T17:42:04Z" finished-at="2020-04-15T17:42:04Z">
+      <class name="com.corona.smoke.Coronadead">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.corona.smoke.Coronadead@b4c3ab]" name="f" duration-ms="0" started-at="2020-04-15T23:12:04Z" finished-at="2020-04-15T23:12:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.corona.smoke.Coronadead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite1 -->
+</testng-results>
